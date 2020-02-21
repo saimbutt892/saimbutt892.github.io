@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 1em;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link:hover {
+    color: greenyellow;
+}
+
+.list-item:hover {
+    background-color: green;
+}
+
+#logo {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-size: 50pt;
+}
+
+#logo:hover {
+    color: lightgreen;
+    text-shadow: 2px 2px 4px black;
+}
+
+#profile {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    width: 100vw;
+}
+
+#profile p {
+    color: lightslategrey;
+    font-size: 2.5vw;
+    margin-top: 2em;
+}
+
+#contact {
+    padding: .5em;
+    width: 100vw;
+    font-weight: bold;
+}
+
+#products {
+    padding: 3em;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+table tr td {
+    padding: 1em;
+}
+
+.card {
+    height: auto;
+}
+
+.card:hover {
+    box-shadow: 2px 1px 10px black;
+}
+
+.card-header {
+    font-size: 2.5em;
+}
+
+#products a {
+    text-decoration: none;
+}
